@@ -20,13 +20,47 @@ Library Versions:
 
 ## Getting Started
 
-1. >
-2. >
-3. >
-4. >
-5. >
+1. **Clone the Repository:**
 
+    ```bash
+    git clone https://github.com/AdrianPricopie/PythonUnitTestPOMBasedProject.git
+    ```
 
+2. **Navigate to the project directory:**
+    
+    ```bash
+    cd PythonUnitTestPOMBasedProject
+    ```
+
+3. **Create venv:**
+    
+    ```bash
+    python -m venv venv
+    ```
+    
+4. **Install Dependencies:**
+
+    ```bash
+    pip install -r requirmments.txt
+    ```
+
+5. **Activate the Virtual Environment:**
+
+   for windows 
+    
+    ```Terminal
+     venv/Scripts/Activate  
+    ```
+    
+6. **Run the Test Suite with html reports:**
+
+    ```bash
+    python -m unittest Test_Suite.py
+    ```
+
+# Usage
+
+Execute the automated tests to verify the Flip.ro website's login and search functionalities.
 
 
 
