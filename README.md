@@ -1,1 +1,1 @@
-Acesta este proiectul final pentru testare automata
+Automated Testing Project for Flip.ro Website
