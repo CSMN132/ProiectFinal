@@ -1,1 +1,1 @@
-Automated Testing Project for Flip.ro Website
+# Automated Testing Project for Flip.ro Website
