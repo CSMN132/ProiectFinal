@@ -51,4 +51,11 @@ class TestSearchBar(unittest.TestCase):
         time.sleep(2)
         self.assertIn(expectedMessage, actualResult[0].text, 'nu e ceea ce trebuie cautat')
 
-    
+    def testSearchIpad(self):
+        self.driver.find_element(*self.SEARCH_BAR).send_keys('Apple, iPad Air 5')
+        self.driver.find_element(*self.SEARCH_CONFIRM).click()
+        time.sleep(2)
+        actualResult = self.driver.find_elements(*self.PRODUCT_ITEM)
+        expectedMessage = 'Apple, iPad Air 5 10.9" (2022) 5th Gen Cellular, 64 GB, Pink'
+        time.sleep(2)
+        self.assertIn(expectedMessage, actualResult[0].text, 'nu e ceea ce trebuie cautat')
